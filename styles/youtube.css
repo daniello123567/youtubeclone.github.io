@@ -1,0 +1,119 @@
+.thumbnail-1 {
+      width: 100%;
+      height: 163.98px;
+      object-fit: cover;
+    }
+.video-grid {
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    }
+    @media (min-width: 1000px){
+      .video-grid{grid-template-columns:1fr 1fr 1fr 1fr;}
+       .video-v{
+         width: 1fr;
+       }
+       .rev{
+         width:  1fr;
+       }
+       .sidebar{
+         width: 200px;
+       }
+    }
+    @media (max-width: 750px){
+      .video-grid{
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width:500px ){
+      .video-grid{
+        grid-template-columns: 1fr;
+      }
+      .video{
+        border: 1px solid grey;
+      }
+    }
+.video-title {
+  margin-left: 5px;
+  width: 100%;
+}
+
+    .video-author {
+      margin-bottom: 9px;
+    }
+ .video-in {
+      display: grid;
+      grid-template-columns: 1fr 100%;
+      margin-top: 10px;
+    }
+.video-author,
+    .video-v {
+      width: 150%;
+      font-size: 14px;
+    }
+    .video-v{
+      color: grey;
+    }
+    .video-author{
+      color: black;
+
+    }
+
+.jay {
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+
+    }
+    .dan {
+      width: 100%;
+    }
+ .video-title {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-weight: bold;
+      line-height: 25px;
+      font-size: 15px;
+      width: 150%;
+    }
+        .rev{
+         width: 61%;
+          font-size: 100%;
+          vertical-align: top;
+        }
+#vide{
+  position: relative;
+}
+.video-time{
+  position: absolute;
+  background-color: black;
+  color: white;
+  right: 10px;
+  bottom: 10px;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 2px;
+}
+.noti{
+  position: relative;
+}
+.numb{
+  position: absolute;
+  top: -1PX;
+  right: -1px;
+  background-color: rgb(231, 8, 8);
+  color: white;
+  font-family: roboto;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 20px;
+}

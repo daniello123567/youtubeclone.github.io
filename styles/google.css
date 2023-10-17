@@ -1,0 +1,40 @@
+.goo{
+  display: flex;
+  font-weight: bold;
+  font-size: 50px;
+  align-items: top;
+  font-family:sans-serif;
+  margin-left: 180px;
+}
+#g{
+  color: blue;
+  margin: 0;
+}
+#o, #e{
+  color: red;
+  margin: 0;
+}
+#o2{
+  color: yellow;
+  margin: 0;
+}
+#g2{
+  color:blue;
+  margin: 0;
+}
+#l{
+  color: green;
+  margin: 0;
+}
+.udu{
+  width: 500px;
+  margin-left: 10px;
+  height: 20px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  box-shadow: 1px -0.1px
+  2px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+
+}
